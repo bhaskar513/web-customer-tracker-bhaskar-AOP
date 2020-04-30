@@ -1,16 +1,16 @@
-package com.luv2code.springdemo.service;
-
-import java.util.List;
-
-import com.luv2code.springdemo.entity.Customer;
-
+package com.bhaskar.spring.dao;
 
 /**
  * @author bhaskar
  *
  * 
  */
-public interface CustomerService {
+
+import java.util.List;
+
+import com.bhaskar.spring.entity.Customer;
+
+public interface CustomerDAO {
 
 	public List<Customer> getCustomers();
 
@@ -19,4 +19,5 @@ public interface CustomerService {
 	public Customer getCustomer(int theId);
 
 	public void deleteCustomer(int theId);
+	
 }

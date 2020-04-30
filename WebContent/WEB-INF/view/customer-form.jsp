@@ -24,7 +24,7 @@
 	</div>
 
 	<div id="container">
-		<h3>Save Customer</h3>
+		<h3>Add Customer Details</h3>
 	
 		<form:form action="saveCustomer" modelAttribute="customer" method="POST">
 			<!-- need customer id -->	
